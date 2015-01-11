@@ -1,0 +1,502 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: STANLEY - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+h1 {
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*nav page links*/
+
+.trigger>li{
+    display: inline;
+    padding-right: 3em;
+
+
+}
+
+.trigger{
+      padding-top: 1em;
+}
+
+.page-link{
+    color: white;
+    padding-top: 2px;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #1abc9c;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.navbar-inverse {
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.navbar-inverse {
+    background-color: #1abc9c;
+    border-color: #16a085;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #222222;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+.progress-bar-theme {
+  background-color: #1abc9c;
+}
+
+
+/* Helpers */
+
+.mt {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.pt {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/* +++++ WRAP SECTIONS +++++ */
+
+#ww {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #f2f2f2;
+}
+
+
+#footer {
+    background-color: #2f2f2f;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+
+#footer p {
+    color: white;
+}
+
+#footer h4 {
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+
+/* +++++ Color Wraps / Blog Page +++++ */
+
+#grey {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f2f2f2;
+}
+
+#white {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #ffffff;
+}
+
+
+
+/* Blog Date*/
+bd {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #d2d2d2;
+    font-weight: 700;
+}
+
+/* Blog Author*/
+ba {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/* Blog Quote */
+.bq {
+    font-size: 22px;
+    padding-top: 30px;
+}
+
+/* Blog Tags */
+bt {
+    font-size: 12px;
+}
+
+/* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
+/* Effects also are controled by hover.zoom.js */
+.zoom { 
+    display:block; 
+    position:relative; 
+    overflow:hidden; 
+    background:transparent url(../img/loader.gif) no-repeat center;
+}
+
+
+    .zoomOverlay {
+        position:absolute;
+        top:0; left:0;
+        bottom:0; right:0;
+        display:none;
+        background-image:url(../img/zoom.png);
+        background-repeat:no-repeat;
+        background-position:center;
+    }
+
+.zoom2 {
+    opacity: 1;
+}
+
+.zoom2:hover {
+    opacity: 0.5;
+}
+
+/* glyphicon Configuration */
+
+.glyphicon {
+    font-size: 40px;
+    color: #1abc9c;
+}
+
+/*index image circle*/
+
+.my-circle{
+    border-radius: 50%;
+}
+
+// /**
+//  * Site header
+//  */
+// .site-header {
+//     border-top: 5px solid $grey-color-dark;
+//     border-bottom: 1px solid $grey-color-light;
+//     min-height: 56px;
+
+//     // Positioning context for the mobile navigation icon
+//     position: relative;
+// }
+
+// .site-title {
+//     font-size: 26px;
+//     line-height: 56px;
+//     letter-spacing: -1px;
+//     margin-bottom: 0;
+//     float: left;
+
+//     &,
+//     &:visited {
+//         color: $grey-color-dark;
+//     }
+// }
+
+// .site-nav {
+//     float: right;
+//     line-height: 56px;
+
+//     .menu-icon {
+//         display: none;
+//     }
+
+//     .page-link {
+//         color: $text-color;
+//         line-height: $base-line-height;
+
+//         // Gaps between nav items, but not on the first one
+//         &:not(:first-child) {
+//             margin-left: 20px;
+//         }
+//     }
+
+//     @include media-query($on-palm) {
+//         position: absolute;
+//         top: 9px;
+//         right: 30px;
+//         background-color: $background-color;
+//         border: 1px solid $grey-color-light;
+//         border-radius: 5px;
+//         text-align: right;
+
+//         .menu-icon {
+//             display: block;
+//             float: right;
+//             width: 36px;
+//             height: 26px;
+//             line-height: 0;
+//             padding-top: 10px;
+//             text-align: center;
+
+//             > svg {
+//                 width: 18px;
+//                 height: 15px;
+
+//                 path {
+//                     fill: $grey-color-dark;
+//                 }
+//             }
+//         }
+
+//         .trigger {
+//             clear: both;
+//             display: none;
+//         }
+
+//         &:hover .trigger {
+//             display: block;
+//             padding-bottom: 5px;
+//         }
+
+//         .page-link {
+//             display: block;
+//             padding: 5px 10px;
+//         }
+//     }
+// }
+
+
+
+// /**
+//  * Site footer
+//  */
+// .site-footer {
+//     border-top: 1px solid $grey-color-light;
+//     padding: $spacing-unit 0;
+// }
+
+// .footer-heading {
+//     font-size: 18px;
+//     margin-bottom: $spacing-unit / 2;
+// }
+
+// .contact-list,
+// .social-media-list {
+//     list-style: none;
+//     margin-left: 0;
+// }
+
+// .footer-col-wrapper {
+//     font-size: 15px;
+//     color: $grey-color;
+//     margin-left: -$spacing-unit / 2;
+//     @extend %clearfix;
+// }
+
+// .footer-col {
+//     float: left;
+//     margin-bottom: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+// }
+
+// .footer-col-1 {
+//     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+//     width:         calc(35% - (#{$spacing-unit} / 2));
+// }
+
+// .footer-col-2 {
+//     width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+//     width:         calc(20% - (#{$spacing-unit} / 2));
+// }
+
+// .footer-col-3 {
+//     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+//     width:         calc(45% - (#{$spacing-unit} / 2));
+// }
+
+// @include media-query($on-laptop) {
+//     .footer-col-1,
+//     .footer-col-2 {
+//         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+//         width:         calc(50% - (#{$spacing-unit} / 2));
+//     }
+
+//     .footer-col-3 {
+//         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+//         width:         calc(100% - (#{$spacing-unit} / 2));
+//     }
+// }
+
+// @include media-query($on-palm) {
+//     .footer-col {
+//         float: none;
+//         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+//         width:         calc(100% - (#{$spacing-unit} / 2));
+//     }
+// }
+
+
+
+// /**
+//  * Page content
+//  */
+// .page-content {
+//     padding: $spacing-unit 0;
+// }
+
+// .page-heading {
+//     font-size: 20px;
+// }
+
+// .post-list {
+//     margin-left: 0;
+//     list-style: none;
+
+//     > li {
+//         margin-bottom: $spacing-unit;
+//     }
+// }
+
+// .post-meta {
+//     font-size: $small-font-size;
+//     color: $grey-color;
+// }
+
+// .post-link {
+//     display: block;
+//     font-size: 24px;
+// }
+
+
+
+// /**
+//  * Posts
+//  */
+// .post-header {
+//     margin-bottom: $spacing-unit;
+// }
+
+// .post-title {
+//     font-size: 42px;
+//     letter-spacing: -1px;
+//     line-height: 1;
+
+//     @include media-query($on-laptop) {
+//         font-size: 36px;
+//     }
+// }
+
+// .post-content {
+//     margin-bottom: $spacing-unit;
+
+//     h2 {
+//         font-size: 32px;
+
+//         @include media-query($on-laptop) {
+//             font-size: 28px;
+//         }
+//     }
+
+//     h3 {
+//         font-size: 26px;
+
+//         @include media-query($on-laptop) {
+//             font-size: 22px;
+//         }
+//     }
+
+//     h4 {
+//         font-size: 20px;
+
+//         @include media-query($on-laptop) {
+//             font-size: 18px;
+//         }
+//     }
+// }
