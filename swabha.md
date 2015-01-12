@@ -6,16 +6,18 @@ permalink: /swabha/
   <div class="container pt">
     <div class="row mt">
       <div class="col-lg-6 col-lg-offset-3 centered">
-        <h3>PROJECT NAME</h3>
+        <h3>Swach Bharath</h3>
         <hr>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+        <p>A team of five passionate students at CodeAstra set together to build a platform where citizens can participate in Swachh Bharat campaign and challenge their friends to be a part of the same. <br>
+        <br>
+Swachh is intended to provide an opportunity to one and all to do their bit and contribute to a greater cause of Swachh Bharat.</p>
       </div>
     </div>
     <div class="row mt centered"> 
       <div class="col-lg-8 col-lg-offset-2">
-        <p><img class="img-responsive" src="assets/img/portfolio/1.jpg" alt=""></p>
+        <p><img class="img-responsive" src="/sb.jpg" alt="Swach Bharath"></p>
         
-        <p><bt>Demo: <a href="#">BlackTie.co</a></bt> - <bt>source code: <a href="#">Illustration</a></bt> </p>
+        <p><a href="http://swachbharat.herokuapp.com/" class="btn btn-primary btn-lg active" role="button" target = "_blank">Demo</a>- <a href="https://github.com/rajanjamu/SwachBharat" class="btn btn-primary btn-lg active" role="button" target = "_blank">Source</a> </p>
       </div>
     </div><!-- /row -->
   </div><!-- /container -->
