@@ -15,7 +15,7 @@ Swachh is intended to provide an opportunity to one and all to do their bit and 
     </div>
     <div class="row mt centered"> 
       <div class="col-lg-8 col-lg-offset-2">
-        <p><img class="img-responsive" src="/sb.jpg" alt="Swach Bharath"></p>
+        <p class="centre"><img src="/sb.jpg" alt="Swach Bharath"></p>
         
         <p><a href="http://swachbharat.herokuapp.com/" class="btn btn-primary btn-lg active" role="button" target = "_blank">Demo</a>- <a href="https://github.com/rajanjamu/SwachBharat" class="btn btn-primary btn-lg active" role="button" target = "_blank">Source</a> </p>
       </div>
