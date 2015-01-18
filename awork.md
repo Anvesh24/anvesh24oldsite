@@ -13,7 +13,7 @@ permalink: /work/
         <p>Swach Bharath</p>
       </div>
       <div class="col-lg-4">
-        <a class="zoom green" href="work01.html"><img class="img-responsive" src="/flames.jpg" alt="" /></a>
+        <a class="zoom green" href=><img class="img-responsive" src="/flames.jpg" alt="" /></a>
         <p>Flames</p>
       </div>
       
